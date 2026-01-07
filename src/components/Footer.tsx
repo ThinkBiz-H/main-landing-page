@@ -1,5 +1,5 @@
 import { Facebook, Instagram, ArrowUp } from 'lucide-react';
-import logo from "../assets/logo.webp";
+import logo from "/logo.png";
 
 
 const Footer = () => {
