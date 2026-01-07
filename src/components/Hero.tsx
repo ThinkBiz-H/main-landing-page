@@ -68,13 +68,13 @@ const Hero = () => {
           </div>
 
           <div className="relative animate-fade-in-up animate-delay-200">
-  <div className="bg-card rounded-2xl shadow-2xl border border-border overflow-hidden">
+  {/* <div className="bg-card rounded-2xl shadow-2xl border border-border overflow-hidden"> */}
     <img
       src="/hero.png"
       alt="Mobile App Preview"
       className="w-full h-full object-cover"
     />
-  </div>
+  {/* </div> */}
 </div>
         </div>
       </div>
