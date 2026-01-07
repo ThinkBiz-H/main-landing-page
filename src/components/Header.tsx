@@ -21,9 +21,17 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20 px-4">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-2">
-            <img src={logo} alt="ThinkBiz High Tech" className="h-10 md:h-12" />
-          </a>
+          {/* <a href="#" className="flex items-center gap-2">
+            <img src={logo} alt="ThinkBiz High Tech" className="h-20 md:h-22" />
+          </a> */}
+          <a href="/" className="flex items-center gap-2">
+  <img
+    src={logo}
+    alt="ThinkBiz High Tech"
+    className="h-16 md:h-20 w-auto object-contain"
+  />
+</a>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
